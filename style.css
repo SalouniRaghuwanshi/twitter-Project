@@ -1,0 +1,32 @@
+body{
+    box-sizing: border-box;
+}
+#icon{
+    color: rgba(29,161,242,1.00);
+    font-size: 2rem;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+.link{
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 00.5rem 1rem;
+}
+.list-item{
+    margin-bottom: 1.5rem;
+}
+.list-style{
+    list-style: none;
+}
+.nav{
+    padding: 1rem;
+    margin: auto;
+    font-size: 1.5rem;
+}
+#icon-dot{
+    border-radius:50%;
+    border: 1px solid black;
+    line-height: 1.7rem;
+    padding: 0.4rem;
+    font-size: 1.5rem;
+}

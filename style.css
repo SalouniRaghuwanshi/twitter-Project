@@ -37,7 +37,10 @@ ul li a i{padding-right: 1.8rem;}
     color: rgba(29,161,242,1.00);
     font-weight: bold;
 }
-
+.active{
+color: rgba(29,161,242,1.00); 
+font-weight: bold;   
+}
 .list-style{
     list-style: none;
 }
@@ -82,19 +85,99 @@ background-color: #3B82F6;
     padding-left: 1rem;
 }
 .img1{
-    width:2rem;
-    height: 2rem;
+    width:1.6rem;
+    height: 1.6rem;
     margin-left: 29.8rem;
-    margin-top: 1.4rem;
+    margin-top: 1rem;
 }
 .img{
-    width:3.5rem;
-    height: 3.5rem;
+    width:3rem;
+    height: 3rem;
     border-radius: 50%;
     margin-left: 1rem;
     margin-right: 1rem;
+    margin-top: 0.5rem;
 }
 .text{
     font-size: 1.2rem;
     color: #374151;
 }
+.list-style1{
+    display: flex;
+    list-style: none;
+    margin-left: 4rem;
+}
+.list-item{
+color:rgba(29,161,242,1.00);
+font-size: 1.3rem;
+width: 2.7rem;
+justify-content: space-between;
+}
+.btn1{
+    background-color:#93C5FD;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 1.2rem;
+    color: white;
+    border-radius: 5rem;
+    margin-left: 20rem;
+}
+.dis1{
+    display: flex;
+    border-bottom: 1px solid #E5E7EB;
+}
+.gray-box{
+    padding: 0.3rem;
+   border:  1px solid #E5E7EB;
+   background-color: #F9FAFB;
+}
+.box3{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 2rem;
+}
+.text2{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.para{
+    font-size: 1rem;
+    color: #374151;
+    text-align: center;
+}
+.search{
+    margin-left: 3rem;
+}
+#bar{
+    background-image: url(images/s1.png);
+    background-position: 1rem 0.4rem ; /* Position the search icon */
+    background-repeat: no-repeat; /* Do not repeat the icon image */
+    background-size: 1.8rem;
+    background-color: #F3F4F6;
+    width: 80%; /* Full-width */
+    font-size: 1.1rem; /* Increase font-size */
+    padding: 0.7rem 2rem 0.7rem 4rem; /* Add some padding */
+    border: 1px solid #F3F4F6; /* Add a grey border */
+    border-radius: 7rem;
+    cursor: pointer;
+   margin:auto;   
+}
+
+.btn2{
+    background-color:rgba(29,161,242,1.00);
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 1rem;
+    color: white;
+    border-radius: 5rem;
+    width: 4rem;
+    margin: auto;
+}
+.btn2:hover{
+    background-color: #3B82F6;
+    }
